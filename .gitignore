@@ -1,0 +1,3 @@
+# Encryption keys — never commit these (especially the private key)
+keys/
+ssh-tripwire.conf

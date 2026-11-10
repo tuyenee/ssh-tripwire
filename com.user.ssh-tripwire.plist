@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.user.ssh-tripwire</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/sbin/ssh-tripwire.sh</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>StandardErrorPath</key>
+  <string>/var/db/ssh-tripwire/stderr.log</string>
+  <key>StandardOutPath</key>
+  <string>/var/db/ssh-tripwire/stdout.log</string>
+</dict>
+</plist>
